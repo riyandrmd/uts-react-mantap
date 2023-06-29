@@ -9,7 +9,7 @@ const Header = () => {
         <header>
             <div className='wrapper-logo'>
                 <GiGunRose size={28} />
-                <h3>MANUSIA KERJA</h3>
+                <h3>CHARACTER LIST</h3>
             </div>
             <nav>
                 <ul className='list-nav'>

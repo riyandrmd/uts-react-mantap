@@ -119,8 +119,8 @@ const Dashboard = () => {
 
     return (
         <div>
-            <button onClick={() => setNewCharacter({ id: idSquence })}>Add</button>
             <div className='wrapper-action'>
+                <button onClick={() => setNewCharacter({ id: idSquence })}>Add</button>
                 <label>
                     Search :
                     <input
@@ -206,7 +206,7 @@ const Dashboard = () => {
                             }
                             required
                         />
-                    </label> 
+                    </label>
                     <label>
                         price
                         <input
