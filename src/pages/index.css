@@ -1,0 +1,47 @@
+.wrapper-characters {
+  width: fit-content;
+  display: flex;
+  gap: 10px;
+  padding: 2rem;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.wrapper-action {
+  margin: 10px;
+  display: flex;
+  color: #000000;
+  justify-content: space-around;
+}
+
+.wrapper-pagination {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.dialog {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 16px #0004;
+}
+
+.cards {
+    background-color: #eee;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 256px;
+    padding: 32px;
+    border-radius: 24px;
+  
+    > label {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+}
