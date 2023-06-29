@@ -176,7 +176,7 @@ const Dashboard = () => {
                     className="cards dialog"
                     onSubmit={(e) => {
                         e.preventDefault();
-                        setPlanets([...Characters, newCharacter]);
+                        setCharacters([...Characters, newCharacter]);
                         setNewCharacter();
                         setIdSequence(idSquence + 1);
                     }}
@@ -206,13 +206,23 @@ const Dashboard = () => {
                             }
                             required
                         />
-                    </label>
+                    </label> 
                     <label>
                         price
                         <input
                             type="number"
                             onChange={(e) =>
                                 setNewCharacter({ ...newCharacter, price: e.target.value })
+                            }
+                            required
+                        />
+                    </label>
+                    <label>
+                        Image
+                        <input
+                            type="text"
+                            onChange={(e) =>
+                                setNewCharacter({ ...newCharacter, urlImage: e.target.value })
                             }
                             required
                         />
